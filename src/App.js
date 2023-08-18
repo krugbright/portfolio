@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import {Header, Service, Experience, Contact} from "./containers"
+import { Divider, SecTitleLeft, SecTitleCenter } from './components';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Divider/>
+      <SecTitleLeft title="My services" subTitle="What I Do"/>
+      <Service/>
+      <Divider/>
+      <SecTitleCenter title="3 Years of experience" subTitle="Where I worked"/>
+      <Experience/>
+      <Divider/>
+      <SecTitleCenter title="Project, certifications, badge" subTitle="Recent works"/>
+      
+      <Divider/>
+      <SecTitleCenter title="Contact" subTitle="Contact with me"/>
+      <Contact/>
+      <Divider/>
+
+      {/*<Gallery/>
+      <Contact/> */}
     </div>
   );
 }

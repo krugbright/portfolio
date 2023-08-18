@@ -1,0 +1,25 @@
+.section__container__center {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section__container__center-title {
+      color: var(--secondary-color);
+      text-transform: uppercase;
+  }
+  
+  .section__container__center-sub {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  @media screen and (max-width: 570px) {
+    .section__container__center-sub{
+        font-size: 2rem;
+    }
+  }
+  

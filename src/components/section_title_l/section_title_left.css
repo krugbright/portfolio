@@ -1,0 +1,13 @@
+.section__container {
+  margin-top: 100px;
+}
+
+.section__container-title {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+.section__container-sub {
+    font-size: 3rem;
+    font-weight: bold;
+}

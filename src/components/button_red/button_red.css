@@ -1,0 +1,9 @@
+.btn-red {
+  background-color: var(--secondary-color);
+  padding: 10px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}

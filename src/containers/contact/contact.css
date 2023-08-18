@@ -1,0 +1,131 @@
+.contact__container {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 30% 60%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card__item-address {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 19px 38px 0px rgba(0, 0, 0, 0.3),
+    0px 0px 4px 6px rgba(40, 40, 47, 1);
+}
+
+.contact__container-right {
+  box-shadow: 0px 19px 38px 0px rgba(0, 0, 0, 0.3),
+    0px 0px 4px 6px rgba(40, 40, 47, 1);
+  margin-bottom: 30px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20px 60px 50px 4fr 1fr;
+
+  row-gap: 40px;
+}
+
+.contact__container-right input,
+.contact__container-right textarea {
+  background-color: var(--black-color);
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  outline: none;
+}
+
+.contact__container-right input {
+  width: 85%;
+}
+
+.contact__input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__text-container {
+  grid-column: 1 /3;
+  grid-row: 4/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.contact__text-container textarea {
+  width: 92%;
+  height: 40vh;
+  resize: none;
+}
+.contact__btn-container {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__btn-container button {
+  background-color: var(--black-color);
+  border: none;
+  inset: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__item-address img {
+  width: 48px;
+  margin-bottom: 20px;
+}
+
+button img {
+  width: 24px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1270px) {
+  .contact__container {
+    display: block;
+  }
+  .contact__container-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .contact__container {
+    display: block;
+  }
+  .contact__container-left {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .contact__container {
+    display: block;
+  }
+  .contact__container-right {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .contact__btn-container button{
+    width: 70%;
+  }
+}

@@ -1,0 +1,5 @@
+export {default as Header} from "./header/Header"
+export {default as Service} from "./service/Service"
+export {default as Experience} from "./experience/Experience"
+export {default as Gallery} from "./gallery/Gallery"
+export {default as Contact} from "./contact/Contact"
