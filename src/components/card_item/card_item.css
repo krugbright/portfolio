@@ -36,3 +36,13 @@
   }
 }
 
+@media screen and (max-width:570px) {
+  .card__container{
+    padding: 20px;
+  }
+
+  .card__container-text {
+    text-align: left;
+  }
+}
+

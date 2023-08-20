@@ -4,33 +4,33 @@ import "./experience.css";
 const experiences = [
   {
     name: "ASECNA",
-    duration: "Mars. 2018 - Avril. 2018",
-    poste: "Technicien réseau",
+    duration: "March. 2018 - April. 2018",
+    poste: "Network technician",
   },
   {
     name: "Blolab",
-    duration: "Août. 2019 - Sept. 2019",
-    poste: "Développeur IOT",
+    duration: "Aug. 2019 - Sept. 2019",
+    poste: "IOT Developer",
   },
   {
     name: "BSSI",
-    duration: "Août. 2020 - Oct. 2021",
-    poste: "Développeur fullstack",
+    duration: "Aug. 2020 - Oct. 2021",
+    poste: "Fullstack Developer",
   },
   {
     name: "KAYA MAGA",
-    duration: "Nov. 2021 - Déc. 2022",
-    poste: "Développeur mobile",
+    duration: "Nov. 2021 - Dec. 2022",
+    poste: "Developer mobile",
   },
   {
     name: "Waouh Monde",
-    duration: "Déc. 2022 - Fév.2023",
-    poste: "Développeur fullstack",
+    duration: "Dec. 2022 - Feb.2023",
+    poste: "Fullstack Developer",
   },
   {
     name: "E-GBAVOU",
-    duration: "Fév. 2023 - Aujourd'hui",
-    poste: "Développeur mobile",
+    duration: "February. 2023 - Aujourd'hui",
+    poste: "Mobile Developer",
   },
 ];
 

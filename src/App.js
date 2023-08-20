@@ -12,8 +12,8 @@ function App() {
       <Divider/>
       <SecTitleCenter title="3 Years of experience" subTitle="Where I worked"/>
       <Experience/>
-      <Divider/>
-      <SecTitleCenter title="Project, certifications, badge" subTitle="Recent works"/>
+      {/* <Divider/>
+      <SecTitleCenter title="Project, certifications, badge" subTitle="Recent works"/> */}
       
       <Divider/>
       <SecTitleCenter title="Contact" subTitle="Contact with me"/>
